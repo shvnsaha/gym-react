@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar/Navbar"
 
 
 
@@ -5,8 +6,8 @@ function App() {
 
 
   return (
-   <div className='bg-green-400'>
-     Hello Reacts
+   <div className='overflow-x-hidden'>
+     <Navbar/>
    </div>
   )
 }

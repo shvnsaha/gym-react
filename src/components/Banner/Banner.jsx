@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { SlideUp } from "../../utility/animation";
 
-const Banner = ({image,title,subtitle,link}) => {
+const Banner = ({image,title,subtitle}) => {
     return (
         <div className="container">
             <div className="bg-[#f9f9f9] grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14">

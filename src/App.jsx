@@ -5,6 +5,7 @@ import Equipments from "./components/Equipments/Equipments"
 import Banner from "./components/Banner/Banner"
 import Img1 from "./assets/2.png";
 import Img2 from "./assets/3.png";
+import Tab from "./components/Tab/Tab"
 
 const BannerData = {
   image: Img1,
@@ -40,6 +41,7 @@ function App() {
       </div>
       <Equipments />
       <Banner {...BannerData} />
+      <Tab/>
       <Banner {...Banner2Data}/>
     </div>
   )

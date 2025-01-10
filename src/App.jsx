@@ -7,6 +7,7 @@ import Img1 from "./assets/2.png";
 import Img2 from "./assets/3.png";
 import Tab from "./components/Tab/Tab"
 import Testimonials from "./components/Testimonials/Testimonials"
+import Discount from "./components/Banner/Discount"
 
 const BannerData = {
   image: Img1,
@@ -45,6 +46,7 @@ function App() {
       <Tab/>
       <Banner {...Banner2Data}/>
       <Testimonials/>
+      <Discount/>
     </div>
   )
 }

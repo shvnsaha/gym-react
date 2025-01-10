@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ProductsData } from "../../mockData/data";
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 
 const Tab = () => {
@@ -21,7 +21,7 @@ const Tab = () => {
                 <div className="flex  space-x-4 mb-4 p-6">
                     {
                         tabs.map((tab, index) => (
-                            <button onClick={()=>setActiveTab(tab)} key={index}
+                            <button onClick={() => setActiveTab(tab)} key={index}
                                 className={`py-2 px-4 rounded-md ${activeTab === tab ? "bg-primary text-white" : "bg-gray-200 text-gray-700"}`}
                             >{tab}</button>
                         ))
